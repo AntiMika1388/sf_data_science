@@ -40,8 +40,10 @@ def score_game(random_predict)-> int:
     print(f"Ваш алгоритм угадывает число в среднем за: {score} попыток")
     return(score)
 
+if __name__=='__main__':
+    
  #RUN
-score_game(random_predict)
+    score_game(random_predict)
         
             
         
