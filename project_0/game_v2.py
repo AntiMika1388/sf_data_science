@@ -1,6 +1,6 @@
 
 
-from turtle import left
+
 import numpy as np
 
 
