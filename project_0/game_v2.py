@@ -5,15 +5,15 @@ import numpy as np
 
 
 def binary_search(number=1) -> int:
-    """Угадываем число бинарным поиском!
+    """Реализация алгоритма инарного поиска
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
     Returns:
         int: Число попыток
     """
     counter = 0
-    left = 0 # нижняя граница
-    right = 100 # верхняя граница
+    left = 0 # нижняя граница промежутка
+    right = 100 # верхняя граница промежутка
 
     while left <= right:
         counter+= 1
