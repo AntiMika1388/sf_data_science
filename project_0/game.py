@@ -2,7 +2,7 @@ import numpy as np
 
 
 def binary_search(number = 1) -> int:
-    """Реализация алгоритма инарного поиска
+    """Реализация алгоритма бинарного поиска
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
     Returns:
