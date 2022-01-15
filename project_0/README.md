@@ -49,4 +49,4 @@
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/AntiMika1388/sf_data_science/blob/main/project_0/README.md#Оглавление)
