@@ -1,53 +1,55 @@
 # Проект 0. Угадай число
 
-## Оглавление 
+## Оглавление  
+[1. Описание проекта](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Этапы-работы-над-проектом)  
+[5. Результат](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Результат)    
+[6. Выводы](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Выводы) 
 
-[1.Описание проекта](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#описание-проекта)
+### Описание проекта    
+Угадать загаданное компьютером число за минимальное число попыток.
 
-[2. Какой кейс решаем](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#какой-кейс-решаем)
-[3. Красткая информация о данных](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#краткая-информация-о-данных)
-
-[4. Этапы работы над проектом](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#этапы-работы-над-проектом)
-
-[5. Результат](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#результат)
-
-[6. Выводы](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#выводы)
-
- ### Описание проекта
-
- Угадать загаданное компьютером число за минимальное число попыток.
-
- [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
+:arrow_up:[к оглавлению](_)
 
 
- **Условия соревнования:**
- - Компьютер загадывает число от 0 до 100, и нам его нужно угадать. Под "угадать", подразумевается "написать программу, которая угадывает число".
- - Алгоритм учитывает информацию о том, больше ли случайное число или меньше нужного нам.
+### Какой кейс решаем?    
+Нужно написать программу, которая угадывает число за минимальное число попыток
 
- **Метрика качества**
- Результаты оцениваются по среднему количеству попыток при 1000 повторений
+**Условия соревнования:**  
+- Компьютер загадывает целое число от 0 до 100, и нам его нужно угадать. Под «угадать», подразумевается «написать программу, которая угадывает число».
+- Алгоритм учитывает информацию о том, больше ли случайное число или меньше нужного нам.
 
- **Что практикуем**
- Учимся писать хороший код на  Pyton
+**Метрика качества**     
+Результаты оцениваются по среднему количеству попыток при 1000 повторений
 
- [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
+**Что практикуем**     
+Учимся писать хороший код на python
 
- ### Какой кейс решаем
 
-  [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
+### Краткая информация о данных
+....
+  
+:arrow_up:[к оглавлению](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Оглавление)
 
- ### Краткая информация о данных
 
-  [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
+### Этапы работы над проектом  
+....
 
-### Этапы работы над проектом
+:arrow_up:[к оглавлению](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Оглавление)
 
- [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
 
- ### Результаты
+### Результаты:  
+....
 
-  [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
+:arrow_up:[к оглавлению](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Оглавление)
 
-  ### Выводы
 
-   [:arrow_up:] (https://github.com/AntiMika1388/sf_data_science/project_0/README.md#оглавление)
+### Выводы:  
+....
+
+:arrow_up:[к оглавлению](https://github.com/AntiMika1388/sf_data_science/project_0/README.md#Оглавление)
+
+
+Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
