@@ -1,44 +1,47 @@
-"""Игра угадай число
-Компьютер сам загадывает и сам угадывает число
-"""
 
+
+from turtle import left
 import numpy as np
 
 
-def random_predict(number: int = 1) -> int:
-    """Рандомно угадываем число
-
+def binary_search(number=1) -> int:
+    """Угадываем число бинарным поиском!
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
-
     Returns:
         int: Число попыток
     """
-    count = 0
+    counter = 0
+    left = 0 # нижняя граница
+    right = 100 # верхняя граница
 
-    while True:
-        count += 1
-        predict_number = np.random.randint(1, 101)  # предполагаемое число
+    while left <= right:
+        counter+= 1
+        predict_number = (left + right)/2 # поиск среднего значения в промежутке
+        
+        if number < predict_number:
+            right = predict_number - 1 # изменение верхней границы, если число больше загаданного    
+        if number > predict_number:
+            left= predict_number + 1 # изменение нижней границы, если число меньше загаданного   
         if number == predict_number:
-            break  # выход из цикла если угадали
-    return count
+            break  # завершение цикла при условии что числа равны
+        
+    return counter
 
 
-def score_game(random_predict) -> int:
+def score_game(binary_search) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
-
     Args:
         random_predict ([type]): функция угадывания
-
     Returns:
         int: среднее количество попыток
     """
     count_ls = []
-    #np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
+    np.random.seed(1)  # фиксируем сид для воспроизводимости
+    random_array = np.random.randint(1, 101, size = (1000))  # загадали список чисел
 
-    for number in random_array:
-        count_ls.append(random_predict(number))
+    for numb in random_array:
+        count_ls.append(binary_search(numb))
 
     score = int(np.mean(count_ls))
     print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
@@ -47,4 +50,4 @@ def score_game(random_predict) -> int:
 
 if __name__ == "__main__":
     # RUN
-    score_game(random_predict)
+    score_game(binary_search)
