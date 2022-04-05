@@ -1,5 +1,5 @@
 # Evgenia_Antimonova
-# PROJECT-1. Анализ вакансий из HeadHunter
+# PROJECT-1. Анализ анкет HeadHunter
 
 ## Оглавление  
 [1. Описание проекта](https://github.com/AntiMika1388/sf_data_science/edit/main/project_1_FINAL/README.md#My-first-project)  
